@@ -83,6 +83,11 @@ pre {
   color: #fff;
 }
 
+::selection {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
 .bg-secondary,
 .btn-secondary {
   background-color: var(--secondary-color);
@@ -124,6 +129,23 @@ pre {
 }
 
 .text-light {
+  color: var(--light-color);
+}
+
+/*  Icon color */
+.icon-primary {
+  color: var(--primary-color);
+}
+
+.icon-secondary {
+  color: var(--secondary-color);
+}
+
+.icon-dark {
+  color: var(--dark-color);
+}
+
+.icon-light {
   color: var(--light-color);
 }
 
