@@ -72,6 +72,11 @@ pre {
   border: 1px solid #fff;
 }
 
+.btn-outline:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
 .btn:hover {
   transform: scale(0.98);
 }
